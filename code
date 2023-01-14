@@ -260,7 +260,7 @@ end)
 StartButton.MouseButton1Click:Connect(function()
 	ClickSound:Play()
 	Background:TweenPosition(UDim2.new(0, -400, 0.5, -150), "In","Sine", .2)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/jzmrofficial/Leaked-bolts-hub/main/code"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jzmrofficial/arsenal-undetected-one/main/code"))()
 end)
 
 -- Slide in UI when everything's done
